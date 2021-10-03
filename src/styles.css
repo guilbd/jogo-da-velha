@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* border-spacing - referente ao espaço entre as células */
+/* border-collapse - une as bordas das células adjacentes */
+app-tic-tac-toe table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* Estilização da tabela - usar 'em' que é relativo ao tamanho da fonte */
+app-tic-tac-toe td {
+  border: 2px solid black;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
